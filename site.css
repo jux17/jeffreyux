@@ -1,0 +1,41 @@
+#bg_vid {
+	position: fixed;
+	min-height: 100%;
+	min-width: 100%;
+	transform: translateX(-50%) translateY(-50%);
+	top:50%;
+	left:50%; 
+
+
+}
+div.transbox {
+  top:50%;
+  margin-top: -10%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 1px solid rgba(255,255,255,0.3);
+  background-color: rgba(0,0,0,0.3);
+  /*opacity: 0.3;*/
+  position: absolute;
+  width: 50%;
+}
+
+div.transbox h1 {
+	text-align: center;
+	font-size: 70px;
+	font-family: 'Megrim', cursive;
+	color: white;
+}
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+ }
+ div.transbox ul {
+ 	list-style: none;
+ }
+ div.transbox a {
+ 	text-decoration: none;
+ 	color: white;
+ }
